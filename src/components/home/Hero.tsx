@@ -53,7 +53,7 @@ export const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-2xl mx-auto"
+            className="text-xl md:text-2xl text-white mb-10 max-w-2xl mx-auto"
           >
             Build real-world solutions for social good using Gen AI
           </motion.p>
@@ -90,7 +90,7 @@ export const Hero = () => {
                 <div className="font-display text-3xl md:text-4xl font-bold gradient-text mb-1">
                   {stat.value}
                 </div>
-                <div className="text-sm text-muted-foreground">{stat.label}</div>
+                <div className="text-sm text-white">{stat.label}</div>
               </div>
             ))}
           </motion.div>
